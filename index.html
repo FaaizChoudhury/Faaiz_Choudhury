@@ -1,103 +1,90 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <title>Muazzaz Ahmed Choudhury (Faaiz) | Portfolio</title>
-  <style>
-    body {
-      background-color: #0e0f1a;
-      color: #e6e6e6;
-      font-family: 'Segoe UI', sans-serif;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #bfa46f;
-    }
-    header {
-      text-align: center;
-      padding: 20px;
-    }
-    img.profile {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid #bfa46f;
-      box-shadow: 0 0 20px rgba(191, 164, 111, 0.6);
-    }
-    section {
-      margin: 40px 0;
-      padding: 20px;
-      background-color: #1a1c2c;
-      border-radius: 16px;
-      box-shadow: 0 0 10px rgba(191, 164, 111, 0.15);
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #888;
-      padding-top: 30px;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li::before {
-      content: "✦ ";
-      color: #bfa46f;
-    }
-    a {
-      color: #f8d577;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .logo {
-      width: 120px;
-      margin-bottom: 10px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muazzaz Ahmed Choudhury (Faaiz)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <img src="profile.jpg" alt="Profile Picture" class="profile">
-  <h1>Muazzaz Ahmed Choudhury (Faaiz)</h1>
-  <p>Law Student | Writer | Music Producer</p>
-</header>
+<!-- Dark Mode Toggle -->
+<div class="theme-toggle">
+  <label>
+    <input type="checkbox" id="darkToggle" />
+    🌙 Dark Mode
+  </label>
+</div>
 
-<section>
-  <h2>About</h2>
-  <p>I am Muazzaz Ahmed Choudhury—known in creative circles as Faaiz Choudhury—an ardent student of law, currently pursuing my B.A. LL.B. with resolute passion and purpose. Originating from the culturally vibrant town of Karimganj in Assam, I carry with me not only the legacy of my roots but also a forward-looking vision shaped by justice, equity, and societal evolution.</p>
-  <p>My academic journey commenced at Tiny Hearts School and found firm grounding at Kendriya Vidyalaya, Karimganj, where I cultivated both discipline and curiosity—traits that continue to guide my legal pursuits.</p>
-  <p>Beyond the world of statutes and case law, I find expression in the realms of writing and music production. Through these creative avenues, I strive to distill truth, challenge convention, and spark reflection—blending intellect with artistry to give voice to both the seen and the unseen.</p>
+<section class="hero">
+  <div class="hero-bg">
+    <img src="img/1000190929.jpg" alt="Landscape Background" class="background-image">
+  </div>
+  <div class="profile-container">
+    <img src="img/profile.jpg" alt="Muazzaz Ahmed Choudhury" class="profile-pic">
+    <h1>Muazzaz Ahmed Choudhury <span>(Faaiz)</span></h1>
+    <p class="tagline">Law Student • Writer • Music Producer</p>
+  </div>
 </section>
 
-<section>
-  <h2>Certifications</h2>
-  <ul>
-    <li><strong>National Awareness Programme on Intellectual Property Rights</strong><br/>Gautam Buddha University — Feb 2025</li>
-    <li><strong>Right to Food Fundamentals – Part 1: The Human Rights-Based Approach</strong><br/>FAO — Feb 2025</li>
-    <li><strong>Ankan Ratnabhushan (Part I) – Fine Arts</strong><br/>Suro Bharati Sangeet Kala Kendra — Jul 2024</li>
-    <li><strong>Comprehensive Guide to Defensive Driving</strong><br/>Alison — Apr 2024</li>
-    <li><strong>Chitra Visharad Final (5th Year) – Fine Arts</strong><br/>Pracheen Kala Kendra — Sep 2023</li>
-    <li><strong>Know Your G20 Quiz</strong><br/>G20 India — Feb 2023</li>
-    <li><strong>Ankan Dibakar (Final) – Fine Arts</strong><br/>Suro Bharati Sangeet Kala Kendra — Nov 2022</li>
-    <li><strong>Certificate of Social Service</strong><br/>HelpAge India — May 2013</li>
-  </ul>
-  <p><em>All certifications awarded to Muazzaz Ahmed Choudhury (Faaiz)</em><br/><small>...and many more</small></p>
+<section class="capture">
+  <h2>The Capture 🎥</h2>
+  <h3>Founder Partner & Management Executive</h3>
+  <img src="img/capture-logo.png" alt="The Capture Logo" class="capture-logo">
+  <p>“The Capture is a creative collaborative dedicated to visual storytelling, media production, and aesthetic documentation. From photography to digital media, the initiative is built to showcase real moments through powerful visuals.”</p>
+  <a href="#" class="button">Visit The Capture</a>
 </section>
 
-<section>
+<section class="articles">
   <h2>Articles</h2>
-  <ul>
-    <li><strong>The Education Scam In India: A Growing Concern</strong><br/>Platform: Youth Ki Awaaz</li>
-    <li><strong>The Indian Budget 2024–25 Falls Short On Equity, Sustainability</strong><br/>Platform: Youth Ki Awaaz</li>
-    <li><strong>Outrage In Kolkata: Public Demands Justice After Horrific Rape Case</strong><br/>Platform: Youth Ki Awaaz</li>
-    <li><strong>From Leaders To Deities: Political Hero Worship In India</strong><br/>Platform: Medium</li>
-  </ul>
-  <small>the articles are written completely by Faaiz Choudhury.</small>
+  <ol>
+    <li><a href="https://www.youthkiawaaz.com/article/outrage-in-kolkata">Outrage In Kolkata…</a> – <em>Youth Ki Awaaz</em><br>A powerful discussion on public demand for justice following a tragic event.</li>
+    <li><a href="https://www.youthkiawaaz.com/article/indian-budget-2024-25-analysis">The Indian Budget 2024‑25…</a> – <em>Youth Ki Awaaz</em><br>A critique of the budget’s shortcomings in equity and sustainability.</li>
+    <li><a href="https://www.youthkiawaaz.com/article/education-scam-india">The Education Scam…</a> – <em>Youth Ki Awaaz</em><br>An investigative look into systemic issues in Indian education.</li>
+    <li><a href="https://medium.com/@faaizchoudhury/from-leaders-to-deities-hero-worship-in-indian-politics">From Leaders to Deities…</a> – <em>Medium</em><br>Analysis of the growing phenomenon of hero worship in politics.</li>
+  </ol>
 </section>
+
+<section class="spotify">
+  <h2>Music</h2>
+  <p>Producing electronic music since 2019</p>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2ye2Wgw4gimLv2eAKyk1NB?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</section>
+
+<section class="contact">
+  <h2>Connect with Me</h2>
+  <div class="social-icons">
+    <a href="#"><i>Instagram</i></a>
+    <a href="#"><i>Facebook</i></a>
+    <a href="#"><i>X</i></a>
+    <a href="#"><i>Spotify</i></a>
+    <a href="#"><i>LinkedIn</i></a>
+  </div>
+</section>
+
+<section class="contact-form">
+  <h2>Send Me a Message</h2>
+  <form action="https://formsubmit.co/youremail@example.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <blockquote>“I speak truth and reality — writing that challenges perception.”</blockquote>
+  <p>© 2025 All rights reserved · Muazzaz Ahmed Choudhury (Faaiz)</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('darkToggle');
+  toggle.addEventListener('change', () => {
+    document.documentElement.setAttribute('data-theme', toggle.checked ? 'dark' : 'light');
+  });
+</script>
+
+</body>
+</html>
